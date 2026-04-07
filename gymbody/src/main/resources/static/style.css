@@ -5,10 +5,6 @@ body{
     padding: 20px;
 }
 
-h1 {
-    color: #e74c3c;
-}
-
 h2 {
     color : #333;
 }
@@ -31,6 +27,19 @@ h2 {
 .card h3 {
     color: #e74c3c;
     margin-top: 0;
+}
+
+nav {
+    background-color: #e74c3c;
+    color: white;
+    padding: 15px 20px;
+    margin: -20px -20px 20px -20px;
+}
+
+nav h1{
+    margin: 0;
+    color: white;
+    font-size: 24px;
 }
 
 
