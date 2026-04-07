@@ -8,6 +8,7 @@ fetch('/api/muscles')
 
     muscles.forEach(muscle => {
       const card = document.createElement('div');
+      card.className = 'card';
       card.innerHTML = '<h3>' + muscle.name + '</h3>' +
                        '<p>' + muscle.description + '</p>' +
                        '<p>Zone: ' + muscle.bodyZone + '</p>';
