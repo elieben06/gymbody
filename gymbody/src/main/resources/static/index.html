@@ -12,6 +12,41 @@
             <p>Learn about your muscles and build your perfect workout.</p>
 
         <h2>Muscle Groups</h2>
+        <div class="workout-section">
+            <h2>Generate Your Workout Plan</h2>
+
+            <div class="form-group">
+                <label>Body Zone</label>
+                <select id="bodyZone">
+                    <option value="upper">Upper Body</option>
+                    <option value="lower">Lower Body</option>
+                    <option value="full">Full Body</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Goal</label>
+                <select id="goal">
+                    <option value="build muscle">Build Muscle</option>
+                    <option value="lose weight">Lose Weight</option>
+                    <option value="endurance">Endurance</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Level</label>
+                <select id="level">
+                    <option value="beginner">Beginner</option>
+                    <option value="intermediate">Intermediate</option>
+                </select>
+            </div>
+
+            <button id="generate-btn" onclick="generateWorkout()">
+                Generate My Plan ✦
+            </button>
+
+            <div id="workout-result"></div>
+        </div>
         <div id="muscle-list">
             Loading
         </div>
